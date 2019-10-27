@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    
+    "strictNullChecks": false,
+    "strictPropertyInitialization": false,
+    "strictBindCallApply": false,
+    "strictFunctionTypes": false,
+    
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "allowJs": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "node_modules/*",
+        "src/types/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

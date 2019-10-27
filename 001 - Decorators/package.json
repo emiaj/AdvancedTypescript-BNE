@@ -1,0 +1,15 @@
+{
+  "name": "decorators",
+  "version": "1.0.0",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^1.19.4",
+    "typescript": "^3.7.2"
+  },
+  "scripts": {
+    "build": "tsc --watch",
+    "start": "nodemon --watch ./dist ./dist/playground.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
